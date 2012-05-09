@@ -56,7 +56,7 @@ group :development do
   gem 'capistrano'
   gem 'foreman'
   gem 'rails-footnotes'
-  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'debugger'
   gem 'taps'
   gem 'added_methods'
   gem 'awesome_print'

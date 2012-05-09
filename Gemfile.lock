@@ -38,7 +38,6 @@ GEM
       multi_json (~> 1.0)
     added_methods (0.1.1)
     addressable (2.2.7)
-    archive-tar-minitar (0.5.2)
     arel (3.0.2)
     awesome_print (1.0.2)
     bcrypt-ruby (3.0.1)
@@ -85,6 +84,13 @@ GEM
       nokogiri (>= 1.5.0)
     daemons (1.1.8)
     database_cleaner (0.7.2)
+    debugger (1.1.2)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1)
+      debugger-ruby_core_source (~> 1.1)
+    debugger-linecache (1.1.1)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.2)
     devise (2.0.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -141,8 +147,6 @@ GEM
       railties (>= 3.0.0)
     libwebsocket (0.1.3)
       addressable
-    linecache19 (0.5.13)
-      ruby_core_source (>= 0.1.4)
     looksee (1.0.3)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -234,18 +238,8 @@ GEM
       activesupport (>= 3.0)
       railties (>= 3.0)
       rspec (~> 2.9.0)
-    ruby-debug-base19 (0.11.26)
-      columnize (>= 0.3.1)
-      linecache19 (>= 0.5.11)
-      ruby_core_source (>= 0.1.4)
-    ruby-debug19 (0.11.6)
-      columnize (>= 0.3.1)
-      linecache19 (>= 0.5.11)
-      ruby-debug-base19 (>= 0.11.19)
     ruby-hmac (0.4.0)
     ruby-nuggets (0.8.7)
-    ruby_core_source (0.1.5)
-      archive-tar-minitar (>= 0.5.2)
     rubyzip (0.9.8)
     sass (3.1.16)
     sass-rails (3.2.5)
@@ -314,6 +308,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner
+  debugger
   devise
   factory_girl_rails
   fog
@@ -332,7 +327,6 @@ DEPENDENCIES
   rails-footnotes
   resque
   rspec-rails
-  ruby-debug19
   sass-rails (~> 3.2.3)
   settingslogic
   simple_form
