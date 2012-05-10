@@ -55,7 +55,10 @@ gem 'cancan'
 group :development do
   gem 'capistrano'
   gem 'foreman'
+  gem 'debugger'
   gem 'taps'
+  gem 'awesome_print'
+  gem 'brice'
 end
 
 group :development, :test do
