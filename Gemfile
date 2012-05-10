@@ -54,6 +54,8 @@ gem 'cancan'
 
 group :development do
   gem 'capistrano'
+  gem 'foreman'
+  gem 'taps'
 end
 
 group :development, :test do
