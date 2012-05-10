@@ -36,6 +36,7 @@ GEM
     activesupport (3.2.2)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    added_methods (0.1.1)
     addressable (2.2.8)
     arel (3.0.2)
     awesome_print (1.0.2)
@@ -289,6 +290,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  added_methods
   awesome_print
   bootstrap-sass
   bootstrap_kaminari!

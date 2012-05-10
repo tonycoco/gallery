@@ -57,6 +57,9 @@ group :development do
   gem 'foreman'
   gem 'debugger'
   gem 'taps'
+
+  # IRB
+  gem 'added_methods'
   gem 'awesome_print'
   gem 'brice'
 end
