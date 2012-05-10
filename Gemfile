@@ -54,15 +54,6 @@ gem 'cancan'
 
 group :development do
   gem 'capistrano'
-  gem 'foreman'
-  gem 'rails-footnotes'
-  gem 'debugger'
-  gem 'taps'
-  gem 'added_methods'
-  gem 'awesome_print'
-  gem 'brice'
-  gem 'looksee'
-  gem 'what_methods'
 end
 
 group :development, :test do
