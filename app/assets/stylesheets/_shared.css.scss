@@ -39,8 +39,8 @@ abbr[title=required] {
 .navbar {
   .brand {
     font-weight: bold;
-    color: $black;
-    text-shadow: 0 1px 0 rgba(255,255,255,.1);
+    color: $white;
+    text-shadow: 0 1px 0 $black;
   }
 
   .user-actions {
