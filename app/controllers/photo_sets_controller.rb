@@ -1,4 +1,6 @@
 class PhotoSetsController < ApplicationController
+  before_filter :admin_only!, :except => [:index, :show]
+
   # GET /photo_sets
   # GET /photo_sets.json
   def index

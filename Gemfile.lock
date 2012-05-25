@@ -36,14 +36,10 @@ GEM
     activesupport (3.2.2)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    added_methods (0.1.1)
     addressable (2.2.8)
     arel (3.0.2)
-    awesome_print (1.0.2)
     bcrypt-ruby (3.0.1)
     bootstrap-sass (2.0.2)
-    brice (0.2.4)
-      ruby-nuggets (>= 0.5.2)
     builder (3.0.0)
     cancan (1.6.7)
     capistrano (2.12.0)
@@ -235,7 +231,6 @@ GEM
       railties (>= 3.0)
       rspec (~> 2.10.0)
     ruby-hmac (0.4.0)
-    ruby-nuggets (0.8.7)
     rubyzip (0.9.8)
     sass (3.1.17)
     sass-rails (3.2.5)
@@ -290,11 +285,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  added_methods
-  awesome_print
   bootstrap-sass
   bootstrap_kaminari!
-  brice
   cancan
   capistrano
   capybara

@@ -1,6 +1,8 @@
 class PhotosController < ApplicationController
   # NOTE: Nested in PhotoSet resource
 
+  before_filter :admin_only!, :except => [:index, :show]
+
   # GET /photo_set/1/photos/1
   # GET /photo_set/1/photos/1.json
   def show
