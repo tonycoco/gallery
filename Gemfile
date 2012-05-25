@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '3.2.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -38,6 +38,7 @@ gem 'jquery-rails'
 
 gem 'bootstrap-sass'
 gem 'bootstrap_kaminari', :git => 'git://github.com/tonycoco/bootstrap_kaminari.git'
+gem 'cancan'
 gem 'carrierwave'
 gem 'devise'
 gem 'fog'
@@ -50,7 +51,6 @@ gem 'omniauth-twitter'
 gem 'resque', :require => 'resque/server'
 gem 'settingslogic'
 gem 'simple_form'
-gem 'cancan'
 
 group :development do
   gem 'capistrano'
