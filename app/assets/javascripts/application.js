@@ -18,4 +18,9 @@
 
 $(document).ready(function() {
   $('form.validate').validate();
+
+  $(document).on('contextmenu', 'img', function(event) {
+    event.preventDefault();
+    alert('Sorry, you cannot save the images on this site.')
+  });
 });
